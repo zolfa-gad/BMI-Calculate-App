@@ -1,16 +1,16 @@
-# bmi_calculate_app
+## BMI Calculater App
 
-A new Flutter project.
+This is a simple BMI calculator app, you just need to select your gender, weight, height and age, then it will display the result and tell you about your health whether you are underweight, overweight, obese or normal.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<p float="left">
+  <img src="https://github.com/zolfa-gad/BMI-Calculate-App/blob/main/images/screenshots/Home_Screen.png" width="30%" />
+  <img src="https://github.com/zolfa-gad/BMI-Calculate-App/blob/main/images/screenshots/Result_Screen.png" width="30%" />
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Feedback
+
+If you have any comments or feedback, please contact me on [linkedin](https://www.linkedin.com/in/zolfa-gad-788493238/)
