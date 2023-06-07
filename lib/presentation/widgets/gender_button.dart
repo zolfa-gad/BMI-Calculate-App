@@ -36,15 +36,19 @@ class GenderButton extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(
               horizontal: 10,
-              vertical: 30,
+              vertical: 50,
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
                   genderType == 'male' ? Icons.male : Icons.female,
-                  size: Theme.of(context).primaryIconTheme.size,
+                  size: 60,
+                  // size: Theme.of(context).primaryIconTheme.size,
                   color: Theme.of(context).primaryIconTheme.color,
+                ),
+                const SizedBox(
+                  height: 10,
                 ),
                 Text(
                   genderType == 'male' ? 'Male' : 'Female',

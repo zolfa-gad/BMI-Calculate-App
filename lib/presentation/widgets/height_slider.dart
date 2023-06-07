@@ -13,7 +13,7 @@ class HeightSlider extends StatelessWidget {
         return Container(
           width: double.infinity,
           // height: 100,
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(20),
           margin: const EdgeInsets.all(10),
           decoration: BoxDecoration(
             color: Colors.orange.withOpacity(0.8),
@@ -34,6 +34,9 @@ class HeightSlider extends StatelessWidget {
                   Text(
                     bloc.height.toStringAsFixed(1),
                     style: Theme.of(context).textTheme.bodyText1,
+                  ),
+                  const SizedBox(
+                    width: 7,
                   ),
                   Text(
                     'CM',

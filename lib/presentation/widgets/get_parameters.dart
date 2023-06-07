@@ -19,7 +19,7 @@ class GetParameters extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(8),
             child: Container(
-              padding: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
                 color: Colors.orange,
                 borderRadius: BorderRadius.circular(30),

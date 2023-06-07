@@ -23,50 +23,59 @@ class ResultScreen extends StatelessWidget {
         ),
       ),
       body: SafeArea(
-        child: Center(
-          child: Container(
-            width: double.infinity,
-            height: double.infinity,
-            margin: const EdgeInsets.all(20),
-            padding: const EdgeInsets.symmetric(
-              vertical: 30,
-              horizontal: 10,
-            ),
-            decoration: BoxDecoration(
-              color: Colors.black.withOpacity(0.9),
-              border: Border.all(
-                color: Colors.white,
-                width: 3,
-              ),
-              gradient: const LinearGradient(
-                colors: [
-                  Colors.teal,
-                  Colors.green,
-                  Colors.lightGreen,
-                  Colors.yellow,
-                ],
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-              ),
-              borderRadius: BorderRadius.circular(30),
-              boxShadow: const [
-                BoxShadow(
-                  blurRadius: 20,
-                  color: Colors.white,
-                )
+        child: Container(
+          width: double.infinity,
+          height: double.infinity,
+          margin: const EdgeInsets.all(20),
+          padding: const EdgeInsets.symmetric(
+            vertical: 30,
+            horizontal: 10,
+          ),
+          decoration: BoxDecoration(
+            // color: Colors.black.withOpacity(0.9),
+            // border: Border.all(
+            //   color: Colors.white,
+            //   width: 3,
+            // ),
+            gradient: const LinearGradient(
+              colors: [
+                Colors.teal,
+                Colors.orangeAccent,
+                // Colors.teal,
+                // Colors.teal,
+                // Colors.amberAccent,
+                // Colors.orangeAccent,
+                // Colors.amberAccent,
+                // Colors.teal,
+                // Colors.green,
+                // Colors.lightGreen,
+                // Colors.orange,
+                // Colors.yellow,
+                // Colors.lightGreen,
+                // Colors.green,
               ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                Expanded(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: const [
+              BoxShadow(
+                blurRadius: 10,
+                color: Colors.black,
+              )
+            ],
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Center(
+                child: Expanded(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                       vertical: 25,
                       horizontal: 10,
                     ),
                     child: ListView.separated(
-                      physics: const NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
                       itemCount: itemsLength,
                       itemBuilder: (context, index) {
@@ -106,18 +115,18 @@ class ResultScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                Column(
-                  children: [
-                    MyButton(
-                      text: 'Ok',
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                    ),
-                  ],
-                ),
-              ],
-            ),
+              ),
+              Column(
+                children: [
+                  MyButton(
+                    text: 'Ok',
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ),

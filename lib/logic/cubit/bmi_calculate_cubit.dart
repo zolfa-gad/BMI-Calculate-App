@@ -5,7 +5,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../models/result.dart';
 
-
 part 'bmi_calculate_state.dart';
 
 class BmiCalculateCubit extends Cubit<BmiCalculateStates> {
@@ -87,7 +86,7 @@ class BmiCalculateCubit extends Cubit<BmiCalculateStates> {
 
   String returnAllResults(int index, String type) {
     List<ResultModel> results = [
-      ResultModel(label: 'Result:', value: result.toStringAsFixed(2)),
+      ResultModel(label: 'BMI:', value: result.toStringAsFixed(2)),
       ResultModel(label: 'Weight:', value: weight.toString()),
       ResultModel(label: 'Height:', value: height.toStringAsFixed(2)),
       ResultModel(label: 'Age:', value: age.toString()),
