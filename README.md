@@ -7,10 +7,16 @@ This is a simple BMI calculator app, you just need to select your gender, weight
 
 <p float="left">
   <img src="https://github.com/zolfa-gad/BMI-Calculate-App/blob/main/images/screenshots/Home_Screen.png" width="30%" />
+     &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/zolfa-gad/BMI-Calculate-App/blob/main/images/screenshots/Result_Screen.png" width="30%" />
 </p>
 
 
 ## Feedback
 
-If you have any comments or feedback, please contact me on [linkedin](https://www.linkedin.com/in/zolfa-gad-788493238/)
+If you have any comments or feedback, please connect with me on [LinkedIn](https://www.linkedin.com/in/zolfa-gad-788493238/)
+
+
+## License
+
+[MIT License](LICENSE)
